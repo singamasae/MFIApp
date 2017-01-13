@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/gen/
+
+/bin/
+bin
+build

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account_info"
+            android:icon="@drawable/ic_menu_account_info"
+            android:title="Account Info" />
+        <item
+            android:id="@+id/nav_change_passwd"
+            android:icon="@drawable/ic_menu_change_passwd"
+            android:title="Change Password" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+        </menu>
+    </item>
+
+</menu>
